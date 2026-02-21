@@ -1,61 +1,140 @@
-**Add your own guidelines here**
-<!--
+# 📘 Sentinel-Stream – Project Guidelines
 
-System Guidelines
+This document outlines the **usage guidelines, scope, limitations, and ethical considerations** for the Sentinel-Stream prototype.
 
-Use this file to provide the AI with rules and guidelines you want it to follow.
-This template outlines a few examples of things you can add. You can add your own sections and format it to suit your needs
+---
 
-TIP: More context isn't always better. It can confuse the LLM. Try and add the most important rules you need
+## 🎯 Project Scope
 
-# General guidelines
+Sentinel-Stream is a **frontend-only prototype** designed to demonstrate:
 
-Any general rules you want the AI to follow.
-For example:
+- Continuous behavioral authentication concepts
+- Trust score evolution based on user behavior
+- AI agent decision pipelines (Observe → Analyze → Decide → Act)
+- Autonomous security response workflows
+- Explainable security UX
 
-* Only use absolute positioning when necessary. Opt for responsive and well structured layouts that use flexbox and grid by default
-* Refactor code as you go to keep code clean
-* Keep file sizes small and put helper functions and components in their own files.
+⚠️ **This project does NOT implement real authentication, fraud prevention, or enforcement.**
 
---------------
+---
 
-# Design system guidelines
-Rules for how the AI should make generations look like your company's design system
+## 🧪 Prototype Behavior
 
-Additionally, if you select a design system to use in the prompt box, you can reference
-your design system's components, tokens, variables and components.
-For example:
+All intelligence in Sentinel-Stream is **simulated** for demonstration purposes:
 
-* Use a base font-size of 14px
-* Date formats should always be in the format “Jun 10”
-* The bottom toolbar should only ever have a maximum of 4 items
-* Never use the floating action button with the bottom toolbar
-* Chips should always come in sets of 3 or more
-* Don't use a dropdown if there are 2 or fewer options
+| Component | Status |
+|--------|--------|
+| Behavioral data | Simulated |
+| Trust score | Generated programmatically |
+| Anomaly detection | Prototype logic |
+| AI decisions | Deterministic simulation |
+| Autonomous actions | Visual-only |
 
-You can also create sub sections and add more specific details
-For example:
+No real ML models are trained or executed in this prototype.
 
+---
 
-## Button
-The Button component is a fundamental interactive element in our design system, designed to trigger actions or navigate
-users through the application. It provides visual feedback and clear affordances to enhance user experience.
+## 🚫 What This Project Is NOT
 
-### Usage
-Buttons should be used for important actions that users need to take, such as form submissions, confirming choices,
-or initiating processes. They communicate interactivity and should have clear, action-oriented labels.
+- ❌ Not a production security system
+- ❌ Not a real fraud detection engine
+- ❌ Not collecting real user biometrics
+- ❌ Not performing surveillance or tracking
+- ❌ Not storing personal or sensitive data
 
-### Variants
-* Primary Button
-  * Purpose : Used for the main action in a section or page
-  * Visual Style : Bold, filled with the primary brand color
-  * Usage : One primary button per section to guide users toward the most important action
-* Secondary Button
-  * Purpose : Used for alternative or supporting actions
-  * Visual Style : Outlined with the primary color, transparent background
-  * Usage : Can appear alongside a primary button for less important actions
-* Tertiary Button
-  * Purpose : Used for the least important actions
-  * Visual Style : Text-only with no border, using primary color
-  * Usage : For actions that should be available but not emphasized
--->
+---
+
+## 🔐 Privacy & Ethics
+
+Sentinel-Stream follows **privacy-first design principles**:
+
+- No keystrokes are logged
+- No mouse coordinates are stored
+- No personally identifiable information (PII)
+- No background tracking
+- No fingerprinting techniques
+
+All displayed data is **synthetic and anonymized**.
+
+---
+
+## ⚖️ Ethical AI Principles
+
+This project is guided by:
+
+- **Transparency** — All AI decisions are explainable
+- **Human Oversight** — Visual indicators show why actions occur
+- **Least Intrusion** — Actions trigger only on high risk
+- **Proportional Response** — Escalation matches risk severity
+
+---
+
+## 🛡️ Security Model (Conceptual)
+
+The security flow demonstrated is:
+
+1. User interacts normally
+2. Behavioral signals are observed
+3. Trust score is evaluated continuously
+4. Anomaly threshold is crossed
+5. AI agent triggers protective actions
+6. Audit log records decisions
+
+This mirrors real-world **Zero Trust** and **Continuous Authentication** architectures.
+
+---
+
+## 🧭 Recommended Usage
+
+Sentinel-Stream is best used for:
+
+- Hackathon demonstrations
+- Security concept validation
+- UX exploration for AI explainability
+- Educational purposes
+- Pitch decks and product walkthroughs
+
+---
+
+## ⚠️ Deployment Guidelines
+
+- Deploy only as a **demo application**
+- Do NOT connect to real authentication systems
+- Do NOT collect real user interaction data
+- Do NOT claim production-grade security
+
+---
+
+## 📦 Extending This Project (Future Work)
+
+If extending beyond prototype:
+
+- Add backend services (API + ML models)
+- Implement secure data pipelines
+- Introduce user consent mechanisms
+- Conduct bias & fairness audits
+- Perform threat modeling & penetration testing
+- Comply with GDPR, SOC 2, ISO 27001
+
+---
+
+## 📜 Legal Notice
+
+This software is provided **"AS IS"**, without warranty of any kind.  
+The authors are not responsible for misuse, misinterpretation, or deployment beyond intended scope.
+
+---
+
+## 👤 Maintainer
+
+**Nitesh N D**  
+GitHub: https://github.com/Nitesh-N-D
+
+---
+
+## 🏁 Final Note
+
+Sentinel-Stream is a **vision prototype** — a glimpse into the future of  
+**AI-driven, behavior-based digital security**.
+
+Use responsibly.
