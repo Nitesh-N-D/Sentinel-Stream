@@ -116,7 +116,7 @@ export function Dashboard() {
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <MapPin className="w-4 h-4 text-[#4DA3FF]" />
-                  <span className="text-[#A0A4B8]">San Francisco, CA</span>
+                  <span className="text-[#A0A4B8]">Chrompet,Chengalpattu</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <Clock className="w-4 h-4 text-[#4DA3FF]" />
